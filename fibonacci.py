@@ -17,3 +17,5 @@ n = int(input("Input the upper limit of the Fibonacci sequence: "))
 
 # This calls the function fib.
 fib(n)
+
+print()

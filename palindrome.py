@@ -6,7 +6,7 @@ def reverse_it(my_text):
     global reversed_text
     reversed_text = my_text[::-1].lower()
     return reversed_text
-
+print("**** Palindromes ****")
 print()
 my_text = input("Enter a string to test if it is a palindrome. ")
 
