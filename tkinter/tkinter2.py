@@ -1,11 +1,11 @@
 from tkinter import *
 
-window = Tk() # Tk() class creates our base window
+root = Tk() # Tk() class creates our base window (root)
 
-topFrame = Frame(window)
+topFrame = Frame(root)
 topFrame.pack()
 
-bottomFrame = Frame(window)
+bottomFrame = Frame(root)
 bottomFrame.pack(side=BOTTOM)
 
 button1 = Button(topFrame, text="Button 1", fg="red")
@@ -19,4 +19,4 @@ button3.pack(side=LEFT) # button1 and button2 in way...ditto
 button4.pack(side=BOTTOM)
 
 
-window.mainloop() # keeps the window on screen until closed
+root.mainloop() # keeps the window on screen until closed
