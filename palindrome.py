@@ -8,7 +8,7 @@ def reverse_it(my_text):
     return reversed_text
 print("**** Palindromes ****")
 print()
-my_text = input("Enter a string to test if it is a palindrome. ")
+my_text = input("Enter a string to test if it is a palindrome. \n")
 
 # This strips away the punctuation
 my_text = my_text.replace(".","").replace("!","").replace("?","").replace("!","").replace(" ","")
