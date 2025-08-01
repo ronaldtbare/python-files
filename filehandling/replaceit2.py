@@ -1,0 +1,22 @@
+# open the file
+# display to file to user
+# ask user for the word to change
+# Display changed file
+# write new file
+
+print()
+with open("roadnottaken.txt", "r") as file:
+    original = file.read()
+    
+print(original)
+
+word = input("\nWhat word would you like to change? ")
+replaced_word = input("What replacement word would you like to use? ")
+
+changed = original.replace(word, replaced_word)
+
+print("\nThis is the changed file: \n")
+print(changed)
+
+with open("roadnottaken2.txt", "w+") as file:
+    file.write(changed)
